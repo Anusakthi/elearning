@@ -105,7 +105,7 @@ header .navbar ul{
 }
 
 header .navbar ul li{
-    margin:0 1rem;
+    margin:0 2rem;
 }
 
 header .navbar ul li a{
@@ -122,10 +122,19 @@ header #login{
     font-size: 3rem;
     color:#fff;
     cursor: pointer;
+    margin-left:10rem;
 }
 
 header #login:hover{
     color:#444;
+}
+header  p{
+    font-size: 2rem;
+    color:#fff;
+    text-transform: lowercase;
+    
+    
+    
 }
 
 header #menu{
@@ -133,6 +142,7 @@ header #menu{
     color:#fff;
     cursor: pointer;
     display: none;
+    
 }
 
 .login-form{
@@ -225,7 +235,7 @@ header #menu{
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    background:url(https://images.saymedia-content.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0NTE3ODQ2MTA0MDkwNjE0/create-effective-online-learning-experiences-with-student-surveys-and-feedback.jpg) no-repeat;
+    background:url(images/image1.jpg) no-repeat;
     background-size:100% 90% ;
     background-position: center bottom ;
     background-attachment: fixed;
@@ -447,7 +457,7 @@ header #menu{
 
 .contact .row form .box{
     height:5rem;
-    width:49%;
+    width:100%;
     border:.1rem solid #eee;
     padding:0 1rem;
     margin:1rem 0;
@@ -465,21 +475,34 @@ header #menu{
     text-transform: capitalize;
 }
 
-.contact .row form .address{
+.contact .row form .message{
     height:15rem;
     padding:1rem;
     resize: none;
     width:100%;
 }
+.contact .row form .btn{
+    padding:15px;
+    background: #f39c12;
+    color:#fff;
+    font-size: 18px;
+    border:0;
+    outline:none;
+    cursor: pointer;
+    width:120px;
+    margin:20px auto 0 ;
+    margin-left: 10px;
+    border-radius: 30px;
 
+}
 .contact .row form .btn:hover{
     background:#fff;
     color:#333;
 }
 
 .contact .row .image img{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 423px;
     margin-top: 3rem;
 }
 
