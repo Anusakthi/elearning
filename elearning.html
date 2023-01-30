@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Learning</title>
 
@@ -52,14 +53,14 @@
 <!-- login form  -->
 
 <div class="login-form" >
-
-    <form name="myform" method="post" action="#"  >
+    <!-- here i was used  php for database and js for display username in  hearder  -->
+    <form name="myform" method="post" action="userdetails.php"  >
         <h3>login</h3>
         <input type="text" placeholder="username" class="box" name="username" id="username">
         <input type="password" placeholder="password" class="box" name="password" id="password">
         <p>forget password? <a href="#">click here</a></p>
         <p>don't have an account? <a href="#">register now</a></p>
-        <input type="submit" name="submit" id="submit" class="btn" value="login" onClick="wlcm(event)"/>
+        <input type="submit" name="submit" id="submit" class="btn" value="login" onsubmit="wlcm(e)"/>
         <i class="fas fa-times"></i>
     </form>
 
